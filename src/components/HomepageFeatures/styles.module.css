@@ -1,0 +1,12 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 32px;
+  width: 32px;
+  fill: var(--ifm-color-content-secondary);
+}
