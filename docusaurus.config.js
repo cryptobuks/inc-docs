@@ -24,8 +24,8 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/inctoken',
-          //sidebarCollapsible: false,
+          editUrl: 'https://github.com/inctoken/inc-docs/blob/main',
+          sidebarCollapsed: true
         },
         /*blog: {
           showReadingTime: true,
@@ -54,7 +54,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'User Guide',
           },
           {
             label: 'Whitepaper',
@@ -76,9 +76,14 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'User Guide',
                 to: '/docs/intro',
               },
+              {
+                label: 'Whitepaper',
+                href: '/whitepaper.pdf',
+                target: '_blank' 
+              }
             ],
           },
           {
@@ -97,11 +102,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Whitepaper',
-                href: '/whitepaper.pdf',
-                target: '_blank' 
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/inctoken',

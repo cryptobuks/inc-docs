@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Add a Participation
+# Take Survey
 
 Go to the [List of surveys](https://survey.inctoken.org/surveys). You can search for a survey by title, description, or part of them.  
 If you know the `Survey ID` you can go directly to the details using the link `http://survey.inctoken.org/surveys/<ID>`.  

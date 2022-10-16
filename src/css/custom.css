@@ -43,6 +43,11 @@
   display: none;
 }
 
+[data-theme='light'] img[src$='#gh-light-mode-only'],
+[data-theme='dark'] img[src$='#gh-dark-mode-only'] {
+  padding: 20px;
+}
+
 .pointer {
   cursor: pointer;
 }

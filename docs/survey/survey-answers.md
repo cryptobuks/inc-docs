@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# View Survey Results
+# Survey Answers
 
 Go to the [List of surveys](https://survey.inctoken.org/surveys) and search for a survey.
 If you know the `Survey ID` you can go directly to the details using the link `http://survey.inctoken.org/surveys/<ID>`.  

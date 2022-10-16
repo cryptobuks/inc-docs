@@ -22,17 +22,17 @@ const FeatureList = [
         Learn how to create a new survey, the parameters to take into account, the component <code>validators</code> and messages, and the order of the options.
       </>
     ),
-    link: '/docs/tutorial-basics/create-a-survey',
+    link: '/docs/tutorial-basics/create-survey',
   },
   {
-    title: 'Add Participation',
+    title: 'Take Survey',
     Svg: require('@site/static/img/people.svg').default,
     description: (
       <>
         Learn how to add a new participation with or without gas, when a coupon is needed to participate and when the reward is received.
       </>
     ),
-    link: '/docs/tutorial-basics/add-a-participation',
+    link: '/docs/tutorial-basics/take-survey',
   },
 ];
 

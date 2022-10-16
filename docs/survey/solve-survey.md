@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Solve a Survey
+# Solve Survey
 
 Resolving the survey consists of withdrawing the remaining budget and gas reserve, leaving the survey unusable.  
 To do this, go to the details of your survey using the link `http://survey.inctoken.org/surveys/<ID>` and use the `Solve survey` button to finish the survey.

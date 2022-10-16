@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Create a Survey
+# Create Survey
 
 Go to section [Create survey](https://survey.inctoken.org/create-survey)
 
@@ -17,7 +17,7 @@ Go to section [Create survey](https://survey.inctoken.org/create-survey)
 - **Reward for participation:** Reward for each participation. Dividing the budget by the reward should result in a positive integer that represents the maximum number of entries.
 - **Gas reserve:** Gas reserve destined to finance the participations of users who do not have a balance to assume the gas of the transaction. It is not obligatory to finance the participations, however the participation must be profitable so that the users decide to collaborate.
 - **Coupons (Optional):** Coupons guarantee the participation of specific users but this will increase the cost of the transaction (gas). Alternatively, you can choose not to use the coupons, this way everyone can participate in this survey.
-Maximum 1000 coupons, each coupon allows a single participation, you will need to send these coupons to the users you want to survey.
+Maximum 10000 coupons, each coupon allows a single participation, you will need to send these coupons to the users you want to survey.
 
 ## Implement the survey questions
 
