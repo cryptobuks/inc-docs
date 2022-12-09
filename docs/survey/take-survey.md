@@ -1,11 +1,11 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Take Survey
 
 Go to the [List of surveys](https://survey.inctoken.org/surveys). You can search for a survey by title, description, or part of them.  
-If you know the `Survey ID` you can go directly to the details using the link `http://survey.inctoken.org/surveys/<ID>`.  
+If you know the `Survey address` you can go directly to the details using the link `http://survey.inctoken.org/surveys/<address>`.  
 Once the survey is located, to participate the following conditions must be met.
 
 - The survey must be open
@@ -19,15 +19,15 @@ Use the `Take survey` button to participate.
 
 Once the survey is completed, if it is profitable for you to participate by assuming the gas of the transaction, you can do so by submitting the transaction directly to the SurveyEngine contract.
 
-![Participation assuming the gas](/img/tutorial/part_paying_gas_light.png#gh-light-mode-only)
-![Participation assuming the gas](/img/tutorial/part_paying_gas_dark.png#gh-dark-mode-only)
+<img src="/img/tutorial/part_paying_gas_light.png#gh-light-mode-only" alt="Participation assuming the gas" width="400"/>
+<img src="/img/tutorial/part_paying_gas_dark.png#gh-dark-mode-only" alt="Participation assuming the gas" width="400"/>
 
 ## Participation Without Gas
 
 In this case, a meta-transaction will be signed and sent to the Relayer server that assumes the gas and is in charge of sending it to the INCForwarder contract, which in turn is in charge of decomposing the meta-transaction and executing the transaction wrapped in the SurveyEngine contract.
 
-![Participation without gas](/img/tutorial/part_without_gas_light.png#gh-light-mode-only)
-![Participation without gas](/img/tutorial/part_without_gas_dark.png#gh-dark-mode-only)
+<img src="/img/tutorial/part_without_gas_light.png#gh-light-mode-only" alt="Participation without gas" width="400"/>
+<img src="/img/tutorial/part_without_gas_dark.png#gh-dark-mode-only" alt="Participation without gas" width="400"/>
 
 :::danger Please note
 To participate without gas, the survey must have enough gas in reserve for the Relayer to pay for the transaction for you.

@@ -12,7 +12,7 @@ const FeatureList = [
         Survey Engine, Forwarder, Relayer and more.
       </>
     ),
-    link: '/docs/intro',
+    link: '/intro',
   },
   {
     title: 'Create Survey',
@@ -22,7 +22,7 @@ const FeatureList = [
         Learn how to create a new survey, the parameters to take into account, the component <code>validators</code> and messages, and the order of the options.
       </>
     ),
-    link: '/docs/tutorial-basics/create-survey',
+    link: '/survey/create-survey',
   },
   {
     title: 'Take Survey',
@@ -32,7 +32,7 @@ const FeatureList = [
         Learn how to add a new participation with or without gas, when a coupon is needed to participate and when the reward is received.
       </>
     ),
-    link: '/docs/tutorial-basics/take-survey',
+    link: '/survey/take-survey',
   },
 ];
 

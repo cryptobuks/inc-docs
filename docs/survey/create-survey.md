@@ -9,6 +9,7 @@ Go to section [Create survey](https://survey.inctoken.org/create-survey)
 ## Enter the survey parameters
 
 - **Logo:** Your logo, you can indicate the link (https://.. or ipfs://..) or you can upload an image, in which case the image will be uploaded to IPFS and the link will be saved on the blockchain.
+- **Token:** Select the token you would like to use to incentivize participants. You can add a [custom token](./custom-token).
 - **Title:** Title of the survey
 - **Description:** Brief description of the purpose of the survey
 - **Start date:** Survey start date
@@ -51,12 +52,18 @@ Some questions allow the addition of validators and a custom error message.
 
 - **1:** First validation condition, in this case for the minimum size of the response.
 - **2:** Second validation condition, in this case for the maximum size of the response.
-- **3:** Custom error message
+- **3:** Custom error message, **indicates the requirements to pass the validation**.
 
 Each condition is made up of the following fields:
 - **Expression:** The expression indicates the type of condition, such as Equal, Not Equal, Contains, Not Contains ...
 - **Value:** The value, if any, is used during validation. Ex. in the image above, the `Maximum Length` expression uses the value 100.
 - **Operator:** The concatenation operator (And/Or) is required if the following conditions exist.
+
+The operator `And` has precedence over `Or` in the order of operations.  
+So, this:  
+CONDITION_A `And` CONDITION_B `Or` CONDITION_C `And` CONDITION_D  
+Is entirely equivalent to:   
+CONDITION_AB `Or` CONDITION_CD
 
 ## Check the preview and test your survey
 
