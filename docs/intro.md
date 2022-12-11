@@ -7,7 +7,7 @@ sidebar_position: 1
 Incentive (INC) is an **utility and governance token** that was born to support a set of projects that allow the use of incentives to promote collaboration and cooperation, some completed and others in process. INC is built on **Polygon**, which addresses Ethereum's limitations, such as transaction speed, throughput, and gas fees.
 
 :::tip Notice
-[Initial offer of the INC Token](https://survey.inctoken.org/token-sale) begins January 1, 2023 and ends June 30, 2023.
+[Initial offer of the INC Token](https://survey.inctoken.org/token-sale) begins January 1, 2023 and ends March 31, 2023.
 :::
 
 # INC Survey
