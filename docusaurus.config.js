@@ -64,6 +64,12 @@ const config = {
             position: 'left'
           },
           {
+            label: 'Governance',
+            href: 'https://www.tally.xyz/gov/eip155:137:0x9a342e71abEab4B9F47Daf520D4C8df3bE938153',
+            target: '_blank',
+            position: 'left'
+          },
+          {
             label: 'GitHub',
             href: 'https://github.com/inctoken',
             position: 'right',

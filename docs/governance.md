@@ -13,15 +13,11 @@ There are two main types of proposals that can be made:
 
 ## Snapshot
 
-TODO
-
-[Snapshot](https://snapshot.org/#/XXXXXX) is a simple voting interface that allows users to signal sentiment off-chain. Votes on snapshot are weighted by the number of INC delegated to the address used to vote.
+[Snapshot](https://snapshot.org/#/inctoken.eth) is a simple voting interface that allows users to signal sentiment off-chain. Votes on snapshot are weighted by the number of INC delegated to the address used to vote.
 
 ## Governance portals
 
-TODO
-
-[Tally](https://XXXXXX) is a governance portal that allows token holders to delegate their votes, and allows delegates to create and vote on binding proposals.
+[Tally](https://www.tally.xyz/gov/eip155:137:0x9a342e71abEab4B9F47Daf520D4C8df3bE938153) is a governance portal that allows token holders to delegate their votes, and allows delegates to create and vote on binding proposals.
 
 ## Governance Glossary
 
